@@ -9,6 +9,7 @@
 header {
     background-image: url("../img/pattern.png");
     background-color: #4d9ffe;
+    background-size: 26%;
     height: 100px;
     position: relative;
 }
