@@ -1,0 +1,119 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Typo */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* Header */
+header {
+    background-image: url("../img/pattern.png");
+    background-color: #4d9ffe;
+    background-size: 26%;
+    height: 6.25rem;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+}
+
+/* title and image section */
+main, footer {
+    padding-left: .3125rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: .9375rem;
+    max-width: 62.5rem;
+}
+
+h4, h5 {
+    color: #919191;
+}
+
+a {
+    text-decoration: none;
+    color: #4d9ffe;
+}
+
+figure {
+    margin-top: .9375rem;
+}
+
+figcaption {
+    font-size: .8125rem;
+}
+
+/* descripition section */
+p {
+    margin: 1.2rem 0;
+}
+
+ul {
+    padding-inline-start: .9375rem;
+    margin-bottom: 1.2rem;
+}
+
+table {
+    border-spacing: 0;
+}
+
+thead tr {
+    background-color: #20a9e5;
+}
+
+tbody tr:nth-child(1), tbody tr:nth-child(3) {
+    background-color: #b1e5f2;
+}
+
+thead tr th:nth-child(3) {
+    width: 50%;
+}
+
+thead tr {
+    text-align: left;
+    color: white;
+}
+
+/* footer */
+.bg {
+    background-image: url("../img/monitor.jpg");
+}
+
+.bg2 {
+    background-image: url("../img/graph.jpg");
+}
+
+footer div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin: .625rem 0;
+}
+
+footer div span {
+    color: white;
+    font-weight: bold;
+}
+
+/* BONUS */
+header div {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+main, footer {
+    margin: 0 auto;
+    max-width: 1200px;
+}
