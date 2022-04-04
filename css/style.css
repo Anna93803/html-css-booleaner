@@ -8,6 +8,7 @@
 /* Typo */
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 /* Header */
@@ -25,7 +26,11 @@ header img {
     height: 60px;
 }
 
-/* section title and image*/
+/* title and image section */
+main, footer {
+    padding-left: .3125rem;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: 800;
@@ -43,10 +48,61 @@ a {
 }
 
 figure {
-    margin-top: 15px;
+    margin-top: .9375rem;
 }
 
 figcaption {
-    font-weight: 500;
-    font-size: 13px;
+    font-size: .8125rem;
+}
+
+/* descripition section */
+p {
+    margin: 1.2rem 0;
+}
+
+ul {
+    padding-inline-start: .9375rem;
+    margin-bottom: 1.2rem;
+}
+
+table {
+    border-spacing: 0;
+}
+
+thead tr {
+    background-color: #20a9e5;
+}
+
+tbody tr:nth-child(1), tbody tr:nth-child(3) {
+    background-color: #b1e5f2;
+}
+
+thead tr th:nth-child(3) {
+    width: 50%;
+}
+
+thead tr {
+    text-align: left;
+    color: white;
+}
+
+/* footer */
+.bg {
+    background-image: url("../img/monitor.jpg");
+}
+
+.bg2 {
+    background-image: url("../img/graph.jpg");
+}
+
+footer div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin: .625rem 0;
+}
+
+footer div span {
+    color: white;
+    font-weight: bold;
 }
